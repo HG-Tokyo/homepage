@@ -1,270 +1,35 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HG-Tokyo - iGEM Team</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>iGEM HG-Tokyo</title>
+    <link rel="stylesheet" href="./static/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./static/style.css">
 </head>
-<body class="bg-gray-50">
-
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex items-center">
-                    <a href="#home" class="flex-shrink-0">
-                        <img class="h-10 w-auto" src="https://placehold.co/150x50/7c3aed/ffffff?text=HG-Tokyo&font=notosansjp" alt="HG-Tokyo ロゴ">
-                    </a>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#igem-toha" class="nav-link">iGEMとは？</a>
-                        <a href="#about-hg-tokyo" class="nav-link">HG-Tokyoについて</a>
-                        <a href="#members" class="nav-link">メンバー紹介</a>
-                        <a href="#departments" class="nav-link">部門紹介</a>
-                        <a href="#contact" class="nav-link">連絡先</a>
-                    </div>
-                </div>
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                        <span class="sr-only">メインメニューを開く</span>
-                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </nav>
-        <div class="md:hidden hidden" id="mobile-menu">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#igem-toha" class="nav-link block">iGEMとは？</a>
-                <a href="#about-hg-tokyo" class="nav-link block">HG-Tokyoについて</a>
-                <a href="#members" class="nav-link block">メンバー紹介</a>
-                <a href="#departments" class="nav-link block">部門紹介</a>
-                <a href="#contact" class="nav-link block">連絡先</a>
-            </div>
+<body>
+    <div class="header">
+        <div class="logo wdxl-lubrifont-tc-regular">
+            <a href="index.html">
+                <img src="./static/HG-Tokyo_icon-01.webp">
+                <p>iGEM HG-Tokyo</p>
+            </a>
         </div>
-    </header>
-
-    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-
-        <section id="home" class="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg shadow-xl mb-12">
-            <div class="container mx-auto px-6 text-center">
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">HG-Tokyoへようこそ！</h1>
-                <p class="text-xl md:text-2xl mb-8">合成生物学で未来を創造するiGEMチーム</p>
-                <a href="#about-hg-tokyo" class="bg-white text-indigo-700 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors text-lg">私たちの活動を見る</a>
-            </div>
-        </section>
-
-        <section id="igem-toha" class="py-12">
-            <h2 class="section-title">iGEMとは？</h2>
-            <div class="space-y-6 text-gray-700 leading-relaxed">
-                <p>iGEM (International Genetically Engineered Machine competition) は、合成生物学における世界最大の学生コンペティションです。毎年、世界中から何百もの学生チームが参加し、独自に設計・構築した遺伝子組換え生物やシステムを発表し、その成果を競い合います。</p>
-                <p>合成生物学は、生物学と工学の原理を融合させ、新しい機能を持つ生物システムを設計・構築する学問分野です。iGEMは、学生たちがこの分野の最先端技術に触れ、社会問題の解決に貢献するためのプラットフォームを提供しています。</p>
-                <div class="grid md:grid-cols-2 gap-6 mt-8">
-                    <div class="card">
-                        <h3 class="text-xl font-semibold text-indigo-600 mb-2">iGEMの目的</h3>
-                        <p>学生が合成生物学のツールキットを使って、地域社会や地球規模の課題に取り組むことを奨励します。創造性、チームワーク、そして科学的探求心を育むことを目指しています。</p>
-                    </div>
-                    <div class="card">
-                        <h3 class="text-xl font-semibold text-indigo-600 mb-2">Giant Jamboree</h3>
-                        <p>毎年秋に開催されるiGEMの祭典「Giant Jamboree」では、各チームが研究成果をポスターやプレゼンテーションで発表し、専門家による審査を受けます。また、世界中の学生と交流できる貴重な機会でもあります。</p>
-                    </div>
-                </div>
-                 <p class="mt-4">より詳しい情報は、<a href="https://igem.org/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">iGEM公式サイト</a>をご覧ください。</p>
-            </div>
-        </section>
-
-        <section id="about-hg-tokyo" class="py-12 bg-indigo-50 rounded-lg">
-            <h2 class="section-title">HG-Tokyoについて</h2>
-            <div class="space-y-6 text-gray-700 leading-relaxed">
-                <p>HG-Tokyoは、[あなたの大学名や拠点など]を拠点とするiGEMチームです。私たちは、合成生物学の力で[チームの具体的な目標や解決したい課題]に取り組んでいます。</p>
-                <p>私たちのチームは、[設立年]年に設立され、多様なバックグラウンドを持つ学生たちが集まり、学際的なアプローチでプロジェクトを進めています。ウェット実験、ドライ解析、ヒューマン・プラクティスなど、幅広い活動を通じて、科学技術の発展と社会貢献を目指します。</p>
-                <h3 class="text-2xl font-semibold text-indigo-600 mt-8 mb-4">今年のプロジェクトテーマ</h3>
-                <p class="mb-4">[ここに今年のプロジェクトテーマの概要を記述します。例：環境問題解決のための微生物開発、新しい診断技術の開発など。]</p>
-                <img src="https://placehold.co/600x300/a5b4fc/ffffff?text=プロジェクトイメージ&font=notosansjp" alt="プロジェクトイメージ" class="rounded-lg shadow-md mx-auto">
-                <p class="mt-4">私たちの活動理念は「[チームの理念やモットー]」です。メンバー一人ひとりの個性を尊重し、協力し合いながら、革新的なアイデアの実現に挑戦しています。</p>
-            </div>
-        </section>
-
-        <section id="members" class="py-12">
-            <h2 class="section-title">メンバー紹介</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                <div class="card text-center">
-                    <img src="https://placehold.co/150x150/cbd5e1/4338ca?text=顔写真1&font=notosansjp" alt="メンバー1" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
-                    <h3 class="text-xl font-semibold text-indigo-700">山田 太郎</h3>
-                    <p class="text-gray-600">[学部・学科・学年]</p>
-                    <p class="text-sm text-indigo-500 mt-1">[役割：例 リーダー、ウェット担当]</p>
-                    <p class="text-xs text-gray-500 mt-2">「iGEMで世界を変えたいです！」</p>
-                </div>
-                <div class="card text-center">
-                    <img src="https://placehold.co/150x150/cbd5e1/4338ca?text=顔写真2&font=notosansjp" alt="メンバー2" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
-                    <h3 class="text-xl font-semibold text-indigo-700">佐藤 花子</h3>
-                    <p class="text-gray-600">[学部・学科・学年]</p>
-                    <p class="text-sm text-indigo-500 mt-1">[役割：例 ドライ担当、広報]</p>
-                    <p class="text-xs text-gray-500 mt-2">「合成生物学の可能性を探求します。」</p>
-                </div>
-                <div class="card text-center">
-                    <img src="https://placehold.co/150x150/cbd5e1/4338ca?text=顔写真3&font=notosansjp" alt="メンバー3" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
-                    <h3 class="text-xl font-semibold text-indigo-700">鈴木 一郎</h3>
-                    <p class="text-gray-600">[学部・学科・学年]</p>
-                    <p class="text-sm text-indigo-500 mt-1">[役割：例 ウェット担当]</p>
-                    <p class="text-xs text-gray-500 mt-2">「実験大好きです！」</p>
-                </div>
-                 <div class="card text-center">
-                    <img src="https://placehold.co/150x150/cbd5e1/4338ca?text=顔写真4&font=notosansjp" alt="メンバー4" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
-                    <h3 class="text-xl font-semibold text-indigo-700">田中 良子</h3>
-                    <p class="text-gray-600">[学部・学科・学年]</p>
-                    <p class="text-sm text-indigo-500 mt-1">[役割：例 Human Practices]</p>
-                    <p class="text-xs text-gray-500 mt-2">「社会との繋がりを大切に。」</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="departments" class="py-12 bg-indigo-50 rounded-lg">
-            <h2 class="section-title">部門紹介</h2>
-            <div class="space-y-8">
-                <div class="card md:flex md:items-start">
-                    <img src="https://placehold.co/200x150/818cf8/ffffff?text=ウェットラボ&font=notosansjp" alt="ウェットラボ" class="md:w-1/3 rounded-lg shadow-md mb-4 md:mb-0 md:mr-6">
-                    <div class="md:w-2/3">
-                        <h3 class="text-2xl font-semibold text-indigo-700 mb-2">ウェットラボ部門 (Wet Lab)</h3>
-                        <p class="text-gray-700 leading-relaxed">ウェットラボ部門では、実際に生物試料を用いた実験を行います。遺伝子組換え、タンパク質発現・精製、細胞培養、機能解析など、プロジェクトの核となる実験を担当します。安全管理を徹底し、確実なデータ取得を目指します。</p>
-                        <p class="text-gray-600 mt-2"><strong>主な活動:</strong> 実験計画、試薬調整、遺伝子クローニング、形質転換、機能評価実験など。</p>
-                    </div>
-                </div>
-                <div class="card md:flex md:items-start">
-                     <img src="https://placehold.co/200x150/a78bfa/ffffff?text=ドライラボ&font=notosansjp" alt="ドライラボ" class="md:w-1/3 rounded-lg shadow-md mb-4 md:mb-0 md:mr-6">
-                    <div class="md:w-2/3">
-                        <h3 class="text-2xl font-semibold text-indigo-700 mb-2">ドライラボ部門 (Dry Lab)</h3>
-                        <p class="text-gray-700 leading-relaxed">ドライラボ部門では、コンピュータを用いた解析やシミュレーションを行います。数理モデリング、バイオインフォマティクス解析、データベース構築、ウェブサイト制作・運営などを担当し、ウェットラボ実験の設計支援や結果の解釈をサポートします。</p>
-                        <p class="text-gray-600 mt-2"><strong>主な活動:</strong> モデリング、シミュレーション、データ解析、プログラミング、Wiki制作など。</p>
-                    </div>
-                </div>
-                <div class="card md:flex md:items-start">
-                    <img src="https://placehold.co/200x150/c4b5fd/ffffff?text=HP部門&font=notosansjp" alt="Human Practices" class="md:w-1/3 rounded-lg shadow-md mb-4 md:mb-0 md:mr-6">
-                    <div class="md:w-2/3">
-                        <h3 class="text-2xl font-semibold text-indigo-700 mb-2">ヒューマン・プラクティス部門 (Human Practices)</h3>
-                        <p class="text-gray-700 leading-relaxed">ヒューマン・プラクティス部門では、私たちのプロジェクトが社会に与える影響を多角的に考察し、社会との対話を行います。倫理的・法的・社会的課題（ELSI）の検討、教育活動、アウトリーチ活動、専門家へのインタビューなどを通じて、プロジェクトの社会的意義を高めます。</p>
-                        <p class="text-gray-600 mt-2"><strong>主な活動:</strong> 社会調査、専門家インタビュー、教育イベント企画・実施、広報活動など。</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="py-12">
-            <h2 class="section-title">連絡先</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div>
-                    <p class="text-gray-700 leading-relaxed mb-4">HG-Tokyoへのご質問、ご支援、共同研究のご提案など、お気軽にお問い合わせください。以下のフォームまたはメールアドレスまでご連絡をお待ちしております。</p>
-                    <div class="space-y-3">
-                        <p class="flex items-center text-gray-700">
-                            <svg class="w-5 h-5 mr-2 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-                            Email: <a href="mailto:contact@hg-tokyo.example.com" class="text-indigo-600 hover:underline">contact@hg-tokyo.example.com</a>
-                        </p>
-                        <p class="flex items-center text-gray-700">
-                            <svg class="w-5 h-5 mr-2 text-indigo-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path></svg>
-                            所在地: [あなたの大学の住所や活動場所など]
-                        </p>
-                        <p class="flex items-center text-gray-700">
-                            <svg class="w-5 h-5 mr-2 text-indigo-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                <path d="M13.026 2.998H16.5V0H13.026C8.393 0 7.5 3.186 7.5 5.99V8.25H4.5V12H7.5V24H12V12H15.65L16.5 8.25H12V5.99C12 4.494 12.175 2.998 13.026 2.998Z" />
-                            </svg>
-                             X (旧Twitter): <a href="https://twitter.com/your_team_twitter" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">@hg_tokyo_example</a>
-                        </p>
-                    </div>
-                </div>
-                <div>
-                    <form action="#" method="POST" class="space-y-4 bg-white p-6 rounded-lg shadow-md">
-                        <div>
-                            <label for="name" class="block text-sm font-medium text-gray-700">お名前</label>
-                            <input type="text" name="name" id="name" autocomplete="name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
-                        </div>
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-gray-700">メールアドレス</label>
-                            <input type="email" name="email" id="email" autocomplete="email" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
-                        </div>
-                        <div>
-                            <label for="subject" class="block text-sm font-medium text-gray-700">件名</label>
-                            <input type="text" name="subject" id="subject" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
-                        </div>
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-gray-700">メッセージ</label>
-                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                                送信する
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-800 text-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
-            <p>&copy; <span id="current-year"></span> HG-Tokyo. All Rights Reserved.</p>
-            <p class="text-sm text-gray-400 mt-1">iGEM Team from [あなたの大学名など]</p>
-            <div class="mt-4">
-                <a href="https://igem.org/" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:text-indigo-100 px-2">iGEM Official</a>
-                </div>
+        <div class="nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#igem-toha" class="nav-link">iGEMについて</a>
+            <a href="#about-hg-tokyo" class="nav-link">HG-Tokyoについて</a>
+                <a href="#members" class="nav-link">メンバー紹介</a>
+                <a href="#departments" class="nav-link">部門紹介</a>
+                <a href="#project" id="nav-link">プロジェクトについて</a>
+            <a href="#contact" class="nav-link">お問合せ</a>
         </div>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const hamburgerIcon = mobileMenuButton.querySelector('svg:first-child');
-        const closeIcon = mobileMenuButton.querySelector('svg:last-child');
-
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-            hamburgerIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
-        });
-
-        // Close mobile menu when a link is clicked
-        const mobileNavLinks = mobileMenu.querySelectorAll('a');
-        mobileNavLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-                hamburgerIcon.classList.remove('hidden');
-                closeIcon.classList.add('hidden');
-            });
-        });
-        
-        // Active navigation link highlighting based on scroll
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('header nav a:not([href="#home"])'); // Exclude home from this logic for now
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop - 70) { // 70 is approx header height + some offset
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').substring(1) === current) {
-                    link.classList.add('active');
-                }
-            });
-        });
-
-
-        // Set current year in footer
-        document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
-
+    </div>
+    <div class="main"></div>
+    <div class="footer"></div>
 </body>
 </html>
