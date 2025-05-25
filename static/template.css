@@ -206,7 +206,7 @@ body {
 @media (max-width: 900px) {
     .header {
         flex-direction: row;
-        justify-content: center; /* Center the logo */
+        justify-content: center;
         align-items: center;
         height: auto;
         padding: 10px 20px; /* Keep this padding for overall header spacing */
