@@ -46,13 +46,27 @@
     transition: background-color 0.3s ease;
 }
 
-.heading {
+.headingen {
     font-family: "WDXL Lubrifont TC", sans-serif;
     font-size: 2.8rem;
     color: #0e6352;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
     text-align: center;
     line-height: 1.2;
+}
+
+.headingjp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.2rem;
+    color: #0e6352;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
+    padding: 0;
+}
+
+#banneren {
+    font-size: 5rem;
 }
 
 .content-text {
