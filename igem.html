@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iGEM HG-Tokyo</title>
+    <title>iGEMについて - iGEM HG-Tokyo</title>
     <link rel="stylesheet" href="./static/template.css">
+    <link rel="stylesheet" href="./static/igem.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+    <script src="/functions/function.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="logo wdxl-lubrifont-tc-regular">
             <a href="index.html">
-                <img src="./static/HG-Tokyo_icon-01.webp">
+                <img src="./static/HG-Tokyo_icon-01.webp" alt="HG-Tokyo Icon">
                 <p>iGEM HG-Tokyo</p>
             </a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
         <ul class="nav">
             <li>
@@ -46,20 +53,78 @@
             </li>
         </ul>
     </div>
+
     <div class="main">
+        <div class="banner">
+            <p class="banner-title">iGEM<span>について</span></p>
+            <p class="banner-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </div>
+
+        <div class="contentblock" id="overview">
+            <div class="heading">What is iGEM?</div>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+            </p>
+            <img src="https://picsum.photos/800/300" alt="iGEM Concept Image" class="image-full-width">
+        </div>
+
+        <div class="contentblock" id="core-pillars">
+            <div class="heading">Core Pillars</div>
+            <div class="grid">
+                <div class="item">
+                    <div class="item-title">Innovation</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="item">
+                    <div class="item-title">Collaboration</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="item">
+                    <div class="item-title">Synthetic Biology</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="item">
+                    <div class="item-title">Education</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="item">
+                    <div class="item-title">Global Impact</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+                <div class="item">
+                    <div class="item-title">Research</div>
+                    <p class="item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contentblock" id="competition-structure">
+            <div class="heading">Competition Structure</div>
+            <p class="content-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+            </p>
+            <img src="https://picsum.photos/1000/400" alt="Competition Flow Image" class="image-full-width">
+        </div>
+
+        <div class="contentblock" id="join-us">
+            <a href="contact.html" class="learnmore">
+                <p>Connect with us</p>
+            </a>
+        </div>
 
     </div>
+
     <div class="footer">
         <ul id="links">
-            <li><a href="" class="links">Home</a></li>
-            <li><a href="" class="links">iGEMについて</a></li>
-            <li><a href="" class="links">チーム</a></li>
-            <li><a href="" class="links">プロジェクト</a></li>
-            <li><a href="" class="links">メンバー紹介</a></li>
-            <li><a href="" class="links">部門紹介</a></li>
-            <li><a href="" class="links">お問合せ</a></li>
+            <li><a href="/" class="links">Home</a></li>
+            <li><a href="igem.html" class="links">iGEMについて</a></li>
+            <li><a href="team.html" class="links">チーム</a></li>
+            <li><a href="project.html" class="links">プロジェクト</a></li>
+            <li><a href="members.html" class="links">メンバー紹介</a></li>
+            <li><a href="departments.html" class="links">部門紹介</a></li>
+            <li><a href="contact.html" class="links">お問合せ</a></li>
         </ul>
-        <div id="sns"><a href=""><img src="./static/Instagram_icon.png" alt=""></a><p>@igem_hgtokyo</p></div>
+        <div><a href="https://www.instagram.com/igem_hgtokyo/" id="sns"><img src="./static/Instagram_icon.png" alt="Instagram Icon"><p>@igem_hgtokyo</p></a></div>
     </div>
 </body>
 </html>
