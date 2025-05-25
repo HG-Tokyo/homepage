@@ -1,13 +1,13 @@
 .banner {
-    height: 88vh; /* Shorter than main banner */
+    height: 88vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#EEFFEE, #FFFFEE);
-    padding-top: 12vh; /* Account for fixed header */
-    box-sizing: border-box; /* Include padding in height calculation */
+    padding-top: 12vh;
+    box-sizing: border-box;
 }
 
 .banner-title {
@@ -32,36 +32,36 @@
 }
 
 .main {
-    background-color: #eeffee; /* Ensure consistent background for the body */
+    background-color: #eeffee;
 }
 
 .contentblock {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 5%; /* Slightly reduced padding for a tighter feel */
+    padding: 60px 5%;
     background-color: #f9f9f9;
-    border-radius: 15px; /* Slightly more rounded corners */
-    box-shadow: 0 6px 15px rgba(0,0,0,0.12); /* Slightly stronger shadow */
-    transition: background-color 0.3s ease; /* Smooth transition for background changes */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    transition: background-color 0.3s ease;
 }
 
 .heading {
     font-family: "WDXL Lubrifont TC", sans-serif;
-    font-size: 2.8rem; /* Slightly larger heading */
-    color: #0e6352; /* Darker green for headings */
-    margin-bottom: 2.5rem; /* More space below heading */
+    font-size: 2.8rem;
+    color: #0e6352;
+    margin-bottom: 2.5rem;
     text-align: center;
     line-height: 1.2;
 }
 
 .content-text {
     max-width: 900px;
-    font-size: 1.15rem; /* Slightly larger text for readability */
+    font-size: 1.15rem;
     line-height: 1.8;
     text-align: justify;
-    margin-bottom: 2.5rem; /* More space below text */
-    color: #444; /* Slightly darker text color */
+    margin-bottom: 2.5rem;
+    color: #444;
 }
 
 .image-full-width {
