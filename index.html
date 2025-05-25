@@ -19,15 +19,30 @@
                 <p>iGEM HG-Tokyo</p>
             </a>
         </div>
-        <div class="nav">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#igem-toha" class="nav-link">iGEMについて</a>
-            <a href="#about-hg-tokyo" class="nav-link">HG-Tokyoについて</a>
-                <a href="#members" class="nav-link">メンバー紹介</a>
-                <a href="#departments" class="nav-link">部門紹介</a>
-                <a href="#project" id="nav-link">プロジェクトについて</a>
-            <a href="#contact" class="nav-link">お問合せ</a>
-        </div>
+        <ul class="nav">
+            <li>
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li>
+                <a href="#igem-toha" class="nav-link">iGEMについて</a>
+            </li>
+            <li class="dropdown-menu">
+                <a href="#about-hg-tokyo" class="nav-link">
+                    HG-Tokyoについて
+                    <svg class="dropdown-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#members">メンバー紹介</a>
+                    <a href="#departments">部門紹介</a>
+                    <a href="#project">プロジェクトについて</a>
+                </div>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link">お問合せ</a>
+            </li>
+        </ul>
     </div>
     <div class="main"></div>
     <div class="footer"></div>

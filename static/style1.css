@@ -41,3 +41,71 @@ body {
 .logo img {
     height: 10vh;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    list-style: none;
+}
+
+.nav > li {
+    height: 12vh;
+}
+
+.nav-link {
+    height: 12vh;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    position: relative; /* Needed for positioning the dropdown content */
+    display: inline-block; /* Allows elements to sit side-by-side */
+    border-radius: 0.5rem; /* Rounded corners for the dropdown trigger */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: fixed; /* Positions the dropdown relative to its parent */
+    top: 12vh;
+    background-color: #f9f9f9; /* Light background for the dropdown */
+    min-width: 160px; /* Minimum width for the dropdown items */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    z-index: 1; /* Ensures the dropdown appears above other content */
+    border-radius: 0.5rem; /* Rounded corners for the dropdown box */
+    overflow: hidden; /* Hides content outside the rounded corners */
+    margin-top: 0.5rem; /* Equivalent to mt-2 */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-menu:hover .dropdown-content {
+    display: block; /* Makes the dropdown content visible on hover */
+}
+
+.dropdown-content a {
+    color: black; /* Text color for dropdown links */
+    padding: 12px 16px; /* Padding inside each dropdown item */
+    text-decoration: none; /* Removes underline from links */
+    display: block; /* Makes the entire area clickable */
+    border-radius: 0.5rem; /* Rounded corners for individual items */
+    transition: background-color 200ms; /* Smooth transition for hover effect */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #e0f2fe; /* Equivalent to hover:bg-blue-100 */
+}
+
+/* SVG icon styling */
+.dropdown-menu .dropdown-icon {
+    display: inline-block;
+    width: 1rem; /* Equivalent to w-4 */
+    height: 1rem; /* Equivalent to h-4 */
+    margin-left: 0.25rem; /* Equivalent to ml-1 */
+    margin-top: -0.25rem; /* Equivalent to -mt-1 */
+    vertical-align: middle; /* Align icon with text */
+}
