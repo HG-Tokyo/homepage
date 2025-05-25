@@ -220,6 +220,10 @@ body {
     font-size: 1.2rem;
 }
 
+.text-section > a {
+    margin-top: 10px;
+}
+
 .heading {
     height: 15vh;
     padding: 0;
@@ -256,6 +260,37 @@ body {
     font-weight: 400;
     text-decoration: none;
     font-size: 2.5rem;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#projectSection {
+    width: 90vw;
+    margin: 20px 5vw;
+    height: calc(100vh - 80px - 2.5rem);
+    background-color: beige;
+    border-radius: 5%;
+    border-width: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#projectimage {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+
+#projectimage > img {
+    width: 30vw;
+}
+
+#projecttext {
+    width: 35vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer {
