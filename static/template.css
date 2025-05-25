@@ -171,35 +171,20 @@ body {
     justify-content: space-between;
     font-size: 0.8rem;
     padding: 8px;
-    background-color: #EEEEEE;
     border-radius: 5px;
     height: 1.5rem;
     text-decoration: none;
     color: black;
 }
 
-@keyframes fillin {
-    from {
-        background-color: #EEEEEE;
-        color: black;
-    }
-    to {
-        background-color: black;
-        color: white;
-    }
+.sns {
+    overflow: hidden;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
-#sns:hover {
-    animation: fillin 300ms;
-    background-color: black;
-    color: #eeeeee;
-}
 
-#sns > p {
-    margin: 0 0 0 10px;
-}
-
-#sns img {
+.sns > img {
     height: 1.5rem;
 }
 
@@ -353,10 +338,10 @@ body {
 
     #links {
         width: 90%;
-        height: auto;
-        margin-bottom: 15px;
+        height: 200px;
+        flex-direction: column;
         justify-content: space-around;
-        flex-wrap: wrap;
+        margin-bottom: 0;
     }
 
     #links > li {
