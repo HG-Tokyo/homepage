@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iGEMについて - iGEM HG-Tokyo</title>
-    <link rel="stylesheet" href="./static/template.css">
-    <link rel="stylesheet" href="./static/project.css">
+    <title>プロジェクト - iGEM HG-Tokyo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
-    <script src="/functions/function.js"></script>
+    <link rel="stylesheet" href="./static/template.css">
+    <link rel="stylesheet" href="./static/project.css">
+    <script src="./functions/function.js"></script>
 </head>
 <body>
     <div class="header">
@@ -34,6 +34,9 @@
             <li>
                 <a href="igem.html" class="nav-link">iGEMについて</a>
             </li>
+            <li>
+                <a href="synthbio.html" class="nav-link">合成生物学について</a>
+            </li>
             <li class="dropdown-menu">
                 <a href="" class="nav-link">
                     HG-Tokyoについて
@@ -54,20 +57,54 @@
     </div>
 
     <div class="main">
-        WIP
-        <p>Work In Progress</p>
+        <div class="banner">
+            <p class="banner-title">Our Project</p>
+            <p class="banner-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+        </div>
+
+        <div class="content flex-layout" id="the-challenge">
+            <div class="content-wrapper">
+                <div class="content-heading">課題: [問題領域]</div>
+                <p class="content-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                </p>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/seed/problem1/600/400" alt="問題の視覚化画像" class="image-full-width">
+            </div>
+        </div>
+
+        <div class="content flex-layout reverse-order" id="approach">
+            <div class="content-wrapper">
+                <div class="content-heading">アプローチ: [方法]</div>
+                <p class="content-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                </p>
+            </div>
+            <div class="image-wrapper">
+                <img src="https://picsum.photos/seed/approach2/600/400" alt="遺伝子回路図" class="image-full-width">
+            </div>
+        </div>
+        
+        <div class="content">
+            <a href="./team.html" class="learnmore">
+                <p>About the team</p>
+            </a>
+        </div>
     </div>
 
     <div class="footer">
         <ul id="links">
             <li><a href="/" class="links">Home</a></li>
             <li><a href="igem.html" class="links">iGEMについて</a></li>
+            <li><a href="synthbio.html" class="links">合成生物学について</a></li>
             <li><a href="team.html" class="links">チーム</a></li>
             <li><a href="project.html" class="links">プロジェクト</a></li>
             <li><a href="departments.html" class="links">部門紹介</a></li>
             <li><a href="contact.html" class="links">お問合せ</a></li>
         </ul>
         <div id="sns">
+            <p>Social: </p>
             <a href="https://www.instagram.com/igem_hgtokyo/" class="sns" target="_blank"><img src="./static/images/Instagram_icon.png" alt="Instagram Icon"></a>
             <a href="https://x.com/igem_hgtokyo" class="sns" target="_blank"><img src="./static/images/x_logo.png" alt="" style="margin: 0 0 0 -3px;"></a>
         </div>
