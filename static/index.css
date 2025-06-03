@@ -126,7 +126,7 @@
 }
 
 #project {
-    height: 100vh;
+    height: 80vh;
     scroll-margin-top: 12vh;
     scroll-snap-align: start;
     width: 90vw;

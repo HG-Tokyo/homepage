@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iGEM HG-Tokyo</title>
+    <title>チーム - iGEM HG-Tokyo</title>
     <link rel="stylesheet" href="./static/team.css">
     <link rel="stylesheet" href="./static/template.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
-    <script src="/functions/function.js"></script>
     <link rel="icon" type="image/webp" href="./static/images/HG-Tokyo_icon-01.webp">
+    <script src="./functions/function.js"></script>
+    <script src="./functions/team.js"></script>
+
 </head>
 <body>
     <div class="header">
@@ -48,7 +50,6 @@
                 <div class="dropdown-content">
                     <a href="team.html">チーム</a>
                     <a href="project.html">プロジェクト</a>
-                    <a href="departments.html">部門紹介</a>
                 </div>
             </li>
             <li>
@@ -58,8 +59,21 @@
     </div>
     
     <div class="main">
-        WIP
-        <p>Work In Progress</p>
+        <div class="contentblock" id="overview">
+            <div class="heading">
+                <p class="headingen">About our team</p>
+                <p id="headingjp">HG-Tokyoについて</p>
+            </div>
+            <p class="content-text">
+                私たちiGEM HG-Tokyoは、東京都港区に所在する広尾学園中学校・高等学校インターナショナルコースの生徒を中心に構成されたメンバー29人の高校生チームです。メンバー全員が帰国子女、またはインターナショナルスクールでの在籍経験を持ち、英語にも堪能です。単一の学校を母体としていることから、経験よりも熱意を重視しており、中学生の参加も歓迎しています。
+            </p>
+        </div>
+
+        <div class="contentblock" id="departments-overview">
+            <div class="heading">Our Members</div>
+            <div class="headingjp">メンバー紹介</div>
+            
+            </div>
     </div>
 
     <div class="footer">
@@ -69,13 +83,24 @@
             <li><a href="synthbio.html" class="links">合成生物学について</a></li>
             <li><a href="team.html" class="links">チーム</a></li>
             <li><a href="project.html" class="links">プロジェクト</a></li>
-            <li><a href="departments.html" class="links">部門紹介</a></li>
+            <li><a href="departments.html" class="links">メンバー紹介</a></li>
             <li><a href="contact.html" class="links">お問合せ</a></li>
         </ul>
         <div id="sns">
-            <p>Social: </p>
-            <a href="https://www.instagram.com/igem_hgtokyo/" class="sns" target="_blank"><img src="./static/images/Instagram_icon.png" alt="Instagram Icon"></a>
-            <a href="https://x.com/igem_hgtokyo" class="sns" target="_blank"><img src="./static/images/x_logo.png" alt="" style="margin: 0 0 0 -3px;"></a>
+            <p>External links: </p>
+            <a href="https://www.instagram.com/igem_hgtokyo/" class="sns" target="_blank" id="ig"><img src="./static/images/Instagram_icon.png" alt="Instagram Icon"></a>
+            <a href="https://x.com/igem_hgtokyo" class="sns" target="_blank" id="x"><img src="./static/images/x_logo.png" alt="" style="margin: 0 0 0 -3px;"></a>
+            <a href="https://www.youtube.com/@iGEMHG-Tokyo" class="sns" target="_blank" id="yt"><img src="./static/images/yt_icon.png" alt=""></a>
+            <a href="https://teams.igem.org/5919" class="sns" target="_blank" id="igem"><img src="./static/images/igem_logo.svg" alt="igem icon"></a>
+        </div>
+    </div>
+
+    <div id="member-modal" class="member-modal-overlay">
+        <div class="member-modal-content">
+            <span class="member-modal-close">×</span>
+            <img src="" alt="メンバーのプロフィール写真" class="member-modal-photo" id="modal-member-photo">
+            <h3 class="member-modal-name" id="modal-member-name"></h3>
+            <p class="member-modal-description" id="modal-member-description"></p>
         </div>
     </div>
 </body>

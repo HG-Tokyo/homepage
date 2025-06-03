@@ -173,19 +173,30 @@ body {
     color: black;
 }
 
-.sns {
-    overflow: hidden;
-    height: 1.5rem;
-    width: 1.5rem;
+#sns > p {
+    padding-right: 10px;
 }
 
+#ig > img {
+    height: 1.5rem;
+}
+
+#x >img {
+    height: 1.8rem;
+    padding-left: 3px;
+}
+
+#yt > img {
+    height: 1.2rem;
+}
+
+#igem > img {
+    padding-left: 8px;
+    height: 1.5rem;
+}
 
 .sns > img {
-    height: 1.5rem;
-}
-
-#sns p {
-    width: 45px;
+    padding-top: 5px;
 }
 
 @media (max-width: 900px) {
