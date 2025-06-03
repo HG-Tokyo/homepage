@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("https://biooekonomie.de/sites/default/files/2023-11/iGEM-Logo.jpg");
+    background-image: url("./images/iGEM-Logo.jpg");
     padding-top: 12vh;
     box-sizing: border-box;
     z-index: 0;

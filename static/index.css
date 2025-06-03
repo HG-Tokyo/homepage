@@ -125,6 +125,21 @@
     overflow: hidden;
 }
 
+.image-section > p {
+    position: absolute;
+    right: 20px;
+    top: 188vh;
+    color: white;
+}
+
+#igem {
+    margin-left: -100px;
+}
+
+#team {
+    margin-right: -100px;
+}
+
 #project {
     height: 80vh;
     scroll-margin-top: 12vh;
