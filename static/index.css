@@ -3,30 +3,45 @@
 }
 
 .banner {
-    height: 94vh;
+    /* Use min-height to be more flexible, and add padding for mobile */
+    min-height: 94vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(#EEFFEE, #FFFFEE);
     scroll-snap-align: start;
     scroll-margin-top: 12vh;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("https://lh3.googleusercontent.com/d/1hZDnVZwdemvdZI6XuaTgnxhO2biECJ2w");
+}
+
+.shade {
+    height: 94vh;
+    width: 100vw;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #title {
     margin: 0;
     padding: 0;
     font-size: 4.5rem;
+    z-index: 2;
 }
 
 .banner > p {
     text-align: center;
+    font-size: 1.2rem;
+    z-index: 2;
 }
 
 .learnmore {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 45px;
     border: 1px solid #117661;
     display: flex;
     justify-content: center;
@@ -36,6 +51,9 @@
     font-weight: 400;
     text-decoration: none;
     color: #117661;
+    flex-shrink: 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 @keyframes fill-in {
@@ -53,46 +71,62 @@
     animation-name: fill-in;
     background-color: #117661;
     color: white;
+    animation-fill-mode: forwards;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .learnmore p {
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: 1.1rem;
 }
 
 .arrow {
     position: absolute;
-    top: 90vh;
+    /* Position from bottom is more reliable than from top with vh units */
+    bottom: 4vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .section {
-    height: 88vh;
+    /* Let content define the height for flexibility */
+    height: auto;
+    min-height: 88vh;
     scroll-margin-top: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
+    box-sizing: border-box;
 }
 
 .text-section {
-    background-color: beige;
-    height: 88vh;
+    height: auto;
+    min-height: 88vh;
     width: 50%;
-    padding: 0 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+#igem-section {
+    padding: 0px 100px 0px 0px;
+}
+
+#team-section {
+    padding: 0px 0px 0px 100px;
 }
 
 .text-section > a {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .headingen {
@@ -115,40 +149,35 @@
 }
 
 .image-section {
-    height: 88vh;
-    width: 50%;
+    height: auto;
+    min-height: 88vh;
+    width: 40%;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-section > img {
+    width: 100%;
     height: 100%;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 .image-section > p {
     position: absolute;
-    right: 20px;
-    top: 188vh;
+    bottom: 100px;
+    right: 0px;
     color: white;
-}
-
-#igem {
-    margin-left: -100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
 }
 
 #team {
-    margin-right: -100px;
-}
-
-#project {
-    height: 80vh;
-    scroll-margin-top: 12vh;
-    scroll-snap-align: start;
-    width: 90vw;
-    margin: 20px 5vw;
-    background-color: beige;
-    border-radius: 5%;
-    border-width: 3px;
+    margin-right: 0;
 }
 
 #projectheading {
@@ -156,20 +185,24 @@
 }
 
 #projectSection {
-    height: 65vh;
+    min-height: 65vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
 }
 
 #projectimage {
     width: 45vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #projectimage > img {
     width: 35vw;
+    max-width: 100%;
 }
 
 #projecttext {
@@ -178,4 +211,98 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.1rem;
+}
+
+/* ================================================= */
+/* NEW: Responsive Styles for Mobile                 */
+/* ================================================= */
+@media (max-width: 900px) {
+    .banner {
+        min-height: 90vh;
+    }
+
+    #title {
+        /* Fluid font size: scales from 2.5rem to 4rem based on 15% of viewport width */
+        font-size: clamp(2.5rem, 15vw, 4rem);
+    }
+
+    .banner > p {
+        font-size: 1rem;
+    }
+
+    .arrow {
+        /* Arrow can be distracting on mobile, so we hide it */
+        display: none;
+    }
+
+    .section {
+        /* Stack the text/image sections vertically */
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Reverses order so the image is on top for this section */
+    #about-hg-tokyo {
+        flex-direction: column-reverse;
+    }
+
+    .text-section, .image-section {
+        width: 100%;
+        min-height: auto;
+        padding: 40px 30px;
+    }
+
+    .image-section {
+        /* Give image sections a consistent height on mobile */
+        height: 45vh;
+        max-height: 350px;
+    }
+
+    .image-section > p {
+       /* Style caption differently for mobile view */
+        position: relative;
+        color: #333;
+        background-color: transparent;
+        text-align: center;
+        width: 100%;
+        bottom: auto;
+        right: auto;
+        padding: 5px 0;
+       margin-top: -30px; /* Pulls it closer to the image */
+    }
+
+    #project {
+        height: auto;
+        padding: 20px 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #projectSection {
+        /* Stack project content vertically */
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+    }
+
+    #projectimage {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #projectimage > img {
+        /* Make the project image larger to be more visible */
+        width: 70vw;
+    }
+
+    #projecttext {
+        width: 90%;
+        margin-right: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
 }

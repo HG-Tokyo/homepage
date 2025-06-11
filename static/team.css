@@ -67,7 +67,7 @@
         }
 
         .department-section-heading {
-            font-family: "WDXL Lubrifont TC", sans-serif;
+            font-family: "Noto Sans JP", sans-serif;
             font-size: 2.5rem; /* Department specific heading */
             color: #0e6352;
             margin-bottom: 2rem;
@@ -82,6 +82,24 @@
             margin: 0 auto;
         }
 
+        .member-card .member-departments {
+            margin-top: 8px;
+            padding-top: 5px;
+        }
+        
+        .member-role-label {
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: #454;
+            background-color: #4ffff0;
+            padding: 3px 8px;
+            border-radius: 5px;
+            margin: 2px;
+            display: inline-block;
+            white-space: nowrap;
+            width: min-content;
+        }
+
         .member-card {
             background-color: #fefefe;
             padding: 15px;
@@ -91,14 +109,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            transition: none;
             cursor: pointer;
             position: relative;
         }
 
         .member-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+            transform: none;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.08);
         }
 
         .member-photo {
@@ -128,64 +146,28 @@
             color: #555;
         }
 
-        .member-role-label { /* Class for all role labels */
+        .member-department-label {
             font-size: 0.75rem;
             font-weight: bold;
             color: #117661;
             background-color: #e0f2fe;
             padding: 3px 8px;
             border-radius: 5px;
-            margin: 2px; /* Small margin between labels */
+            margin: 2px;
             display: inline-block;
-            white-space: nowrap; /* Prevent wrapping for labels */
+            white-space: nowrap;
+            width: min-content;
         }
 
-        /* Updated style for grade labels to look like boxes */
-        .member-grade-label {
-            display: inline-block; /* Allows padding and margin */
-            padding: 0.25em 0.7em; /* Vertical and horizontal padding */
-            border-radius: 15px; /* Creates a pill shape */
-            font-size: 0.75em; /* Smaller font size for the badge */
-            font-weight: bold;
-            color: white; /* Text color for the badge */
-            margin-right: 8px; /* Space between the grade badge and the name */
-            vertical-align: middle; /* Aligns the badge nicely with text */
-            text-transform: uppercase; /* Makes grades like H1, H2, M3 look consistent */
-            line-height: 1; /* Ensures text sits correctly in the badge */
-        }
-
-        /* Specific styles for each grade */
-        .grade-H1 {
-            background-color: #4CAF50; /* Green for H1 */
-        }
-
-        .grade-H2 {
-            background-color: #2196F3; /* Blue for H2 */
-        }
-
-        .grade-H3 {
-            background-color: #FFC107; /* Amber for H3 */
-            color: #333; /* Darker text for lighter background */
-        }
-
-        .grade-M2 {
-            background-color: #9C27B0; /* Purple for M2 */
-        }
-
-        .grade-M3 {
-            background-color: #E91E63; /* Pink for M3 */
-        }
-        
-        /* Styles for the new Member Modal */
         .member-modal-overlay {
-            display: none; /* Hidden by default */
+            display: none; 
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
-            z-index: 1000; /* Above everything else */
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
             align-items: center;
             justify-content: center;
             animation: fadeInOverlay 0.3s ease-out forwards;
@@ -196,8 +178,8 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            max-width: 500px; /* Max width for the modal */
-            width: 90%; /* Responsive width */
+            max-width: 500px;
+            width: 90%;
             text-align: center;
             position: relative;
             animation: slideInModal 0.3s ease-out forwards;
@@ -226,7 +208,7 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
-            border: 4px solid #117661; /* Green border for modal photo */
+            border: 4px solid #117661;
         }
 
         .member-modal-name {
@@ -240,12 +222,14 @@
         }
 
         .member-modal-description {
-            font-size: 1.1rem;
+            font-size: 1rem;
             line-height: 1.7;
             color: #444;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        /* Animations for modal */
         @keyframes fadeInOverlay {
             from { opacity: 0; }
             to { opacity: 1; }
@@ -256,7 +240,6 @@
             to { transform: translateY(0); opacity: 1; }
         }
 
-        /* Responsive adjustments */
         @media (max-width: 768px) {
             .contentblock {
                 padding: 40px 3%;

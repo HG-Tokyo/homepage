@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プロジェクト - iGEM HG-Tokyo</title>
+    <title>Our Project - iGEM HG-Tokyo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./static/template.css">
     <link rel="stylesheet" href="./static/project.css">
     <script src="./functions/function.js"></script>
+    <link rel="icon" type="image/webp" href="./static/images/HG-Tokyo_icon-01.webp">
 </head>
 <body>
     <div class="header">
@@ -59,26 +60,25 @@
         <div class="banner">
             <p class="banner-title">Our Project</p>
             <div class="headingjp">プロジェクト</div>
-            <p class="banner-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+            <p class="banner-text">本プロジェクトでは、花粉症をターゲットとしたアレルギー症状の軽減に効果がある天然フラボノイド<span class="emphasize">「ナリルチン」</span>を持続可能に生産できるよう、<span class="emphasize">酵母を用いて新たな生産系を構築すること</span>を目標として掲げております。</p>
         </div>
 
         <div class="content flex-layout" id="the-challenge">
             <div class="content-wrapper">
-                <div class="content-heading">課題: [問題領域]</div>
+                <div class="content-heading">課題：ナリルチンの大量生産</div>
                 <p class="content-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                    ナリルチンはじゃばらという和歌山県の柑橘類に多く含まれているナリンゲニンの配糖体（naringenin-7-O-rutinoside）であり、<span class="emphasize">抗アレルギー、抗酸化、や脱顆粒現象の抑制</span>などの作用を持っていることから多くの慢性疾患の治療を目的とした研究に用いられています。しかし、<span class="emphasize">果皮からの天然抽出が1%未満の低収率</span>であり、<span class="emphasize">化学合成も高コスト</span>であるため、<span class="emphasize">大量生産が困難</span>とされています。
                 </p>
-            </div>
-            <div class="image-wrapper">
-                <img src="https://picsum.photos/seed/problem1/600/400" alt="問題の視覚化画像" class="image-full-width">
             </div>
         </div>
 
         <div class="content flex-layout reverse-order" id="approach">
             <div class="content-wrapper">
-                <div class="content-heading">解決策: [方法]</div>
+                <div class="content-heading">解決策：ナリルチン生合成酵素のクローニング</div>
                 <p class="content-text">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                    そこで、私たちはじゃばらに由来するナリルチン生合成酵素をクローニングし、<span class="emphasize">発酵による合成生産経路を酵母で行う</span>ことを目指しています。この合成経路の構築には二つの酵素を必要とします: <br><br>1. F7GT (Flavanone-7-O-glucosyltransferase)<br> 2. 1,6RhaT (1,6-rhamnosyltransferase). <br><br> これらの遺伝子の配列はまだじゃばらでは未同定であるため、じゃばらからRNAを抽出し、cDNAを合成した上で、既知の柑橘類由来の類似酵素の配列を参考にプライマーを設計し、ORFの同定をクローニングを行います。その後、その遺伝子配列を元に、酵母に向けたコドン最適化された合成遺伝子を作成し、酵母の発現ベクターに組み込みます。土ちに精製した酵素はナリンゲニン、UDP-グルコース、UDP-ラムノースを用い、ナリルチンのin vitro合成を目指します。
+<br>このプロジェクトが成功したときには、後にプロダクト化を実現させます。花粉症に困る人々のために鼻スプレーやインへーラーを開発し、社会実装を最終的な目標として活動を取り組んでおります。
+
                 </p>
             </div>
             <div class="image-wrapper">
@@ -96,12 +96,12 @@
     <div class="footer">
         <ul id="links">
             <li><a href="/" class="links">Home</a></li>
-            <li><a href="igem.html" class="links">iGEMについて</a></li>
-            <li><a href="synthbio.html" class="links">合成生物学について</a></li>
-            <li><a href="team.html" class="links">チーム</a></li>
-            <li><a href="project.html" class="links">プロジェクト</a></li>
-            <li><a href="departments.html" class="links">メンバー紹介</a></li>
-            <li><a href="contact.html" class="links">お問合せ</a></li>
+            <li><a href="./igem.html" class="links">iGEMについて</a></li>
+            <li><a href="./synthbio.html" class="links">合成生物学について</a></li>
+            <li><a href="./team.html" class="links">チーム</a></li>
+            <li><a href="./project.html" class="links">プロジェクト</a></li>
+            <li><a href="./team.html" class="links">メンバー紹介</a></li>
+            <li><a href="./contact.html" class="links">お問合せ</a></li>
         </ul>
         <div id="sns">
             <p>External links: </p>

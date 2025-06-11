@@ -8,7 +8,7 @@
     background-image: url("./images/iGEM-Logo.jpg");
     padding-top: 12vh;
     box-sizing: border-box;
-    z-index: 0;
+    z-index: 2;
 }
 
 .shade {
@@ -22,7 +22,7 @@
 }
 
 .heading {
-    z-index: 1000;
+    z-index: 2;
 }
 
 .banner-title {
@@ -39,7 +39,7 @@
 }
 
 .banner-text {
-    z-index: 1000;
+    z-index: 2;
     font-size: 1.5rem;
     text-align: center;
     max-width: 800px;
@@ -119,8 +119,8 @@
 }
 
 .learnmore {
-    width: 220px;
-    height: 60px;
+    width: 250px;
+    height: 80px;
     border: 1px solid #117661;
     display: flex;
     flex-direction: column;
@@ -131,6 +131,9 @@
     font-weight: 400;
     text-decoration: none;
     color: #117661;
+    flex-shrink: 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
 @keyframes fill-in {

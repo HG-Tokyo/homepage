@@ -1,0 +1,251 @@
+[
+    {
+        "japaneseName": "佐藤　凜奈",
+        "name": "Linna Sato",
+        "grade": "H2",
+        "department": "Wet & Entrepreneurship, Education , 財務",
+        "roles": "Team Leader admin",
+        "japaneseDescription": "脳や医学に興味があり、学生団体の運営や学術オリンピックに挑戦中。世界一を目指して頑張ります。",
+        "description": "I will do whatever it takes to help the team reach its full potential and leave a real impact on the world."
+    },
+    {
+        "japaneseName": "江川　陸翔",
+        "name": "Rikuto Egawa",
+        "grade": "H2",
+        "department": "Wet & Entrepreneurship",
+        "roles": "Team Leader, Wet Leader, admin",
+        "japaneseDescription": "糖尿病の研究をしている17歳。iGEMの目標は世界一。合成生物学で社会課題に本気で向き合います。",
+        "description": "With full commitment, I am eager to change the world with the beauty of synthetic biology, and contribute in alleviating hay fever symptoms."
+    },
+    {
+        "japaneseName": "上倉　綾太",
+        "name": "Ryota Kamikura",
+        "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1-JsXV87yKTjp_YFpYZdzRcun5bCvhupb",
+        "department": "Wet & Entrepreneurship, Education , 財務",
+        "roles": "Team Leader, admin",
+        "japaneseDescription": "脳神経科学に関心を持ち学生団体などで活動中。iGEMはいい成果をあげられるよう、全力で頑張ります！",
+        "description": "Passionate about neuroscience and planning to pursue it. Through iGEM, I hope to achieve meaningful results and enjoy the journey. As one of the team leaders, I aim to support and lead my team."
+    },
+    {
+        "japaneseName": "木内　和奏",
+        "name": "Wakana Kiuchi",
+        "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1ZdczBq4eocVQDhwjRpzEGnIaCHZG9P9-",
+        "department": "Wet & Entrepreneurship, 広報",
+        "japaneseDescription": "医学に興味があります。iGEMでは自分の知識を深めながらチームに貢献できるよう頑張ります！",
+        "description": "I'm passionate about medicine, especially immunology and cardiology. Through iGEM, I hope to deepen my scientific knowledge, gain valuable research experience, and contribute to the team to achieve successful results."
+    },
+    {
+        "japaneseName": "岡田　英虎",
+        "name": "Eito Okada",
+        "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1XhA1I7nXll8aeUBTTSB-PkgVP64HsnBN",
+        "department": "Software, Wiki",
+        "roles": "Software・Wiki Leader",
+        "japaneseDescription": "興味分野は航空宇宙工学と量子コンピューティングです。高クオリティのwikiとソフトを作れるように頑張ります。",
+        "description": "My pursuits are aerospace engineering and quantum computing. I'll try my best to create a nice wiki and software for the team."
+    },
+    {
+        "japaneseName": "成田　響生",
+        "name": "Hibiki Narita",
+        "grade": "H2",
+        "department": "Education",
+        "roles": "Education Sub Leader",
+        "japaneseDescription": "化学工学や宇宙に興味があります。合成生物学をもっと身近に感じてもらえるよう、全力で頑張ります！",
+        "description": "I'm interested in chemical enginnering and space. I’ll do my best to make synthetic biology something everyone can understand and get excited about!"
+    },
+    {
+        "japaneseName": "木村　直翔",
+        "name": "Naoto Kimura",
+        "grade": "H2",
+        "department": "Human Practice, 財務",
+        "japaneseDescription": "普段は法に興味ありますが,iGemを通して他者との関わりと関係性の重要性を身につけたいです。",
+        "description": "My interest in on law, but I hope to learn about the importance of human communication and relationships through iGem!"
+    },
+    {
+        "japaneseName": "水谷　綾那",
+        "name": "Ayana Mizutani",
+        "grade": "H1",
+        "photo": "https://lh3.googleusercontent.com/d/1Aa308ie69tCSGWm3Tu1gJ91l_urpUt_z",
+        "department": "Education",
+        "roles": "Education Leader",
+        "japaneseDescription": "生物学と化学に興味を持っています。多くの人に合成生物学の面白さを広められるように全力で頑張ります！",
+        "description": "I hope to make a positive impact in people's view of synthetic biology through collaboration with my teammates. I will do my best to support the team!"
+    },
+    {
+        "japaneseName": "小野　恵理",
+        "name": "Eri Ono",
+        "grade": "H1",
+        "photo": "https://lh3.googleusercontent.com/d/1L2NVRlazrunB7ZM_bwIdNr1YOrtF49h-",
+        "department": "Human Practice",
+        "japaneseDescription": "生物に興味があり追求するため挑戦しました。たくさんの方と関わることが好きです、頑張ります。",
+        "description": "Exploring the field of synthetic biology myself, I hope to further spread its power to the world. I'm going to give it my best and cherish this journey working with the team!"
+    },
+    {
+        "japaneseName": "戸塚　美穂",
+        "name": "Miho Totsuka",
+        "grade": "M2",
+        "photo": "https://lh3.googleusercontent.com/d/1FcrhgHFjqxFx2L6iv6OzweL2L1ZE9gUi",
+        "department": "財務, Education",
+        "japaneseDescription": "チーム最年少メンバーとして何事にも全力で挑戦し、HG-Tokyoに貢献できるように頑張ります！",
+        "description": "As HG-Tokyo’s youngest member, I’m eager to tackle every challenge and contribute wherever I can."
+    },
+    {
+        "japaneseName": "大辺　真矢",
+        "name": "Maya Obe",
+        "grade": "H1",
+        "photo": "https://lh3.googleusercontent.com/d/1yIO9JNvDNF7SYTs5IrEbw7lIZy3ZGErk",
+        "department": "Human Practice",
+        "japaneseDescription": "環境とジャーナリズムに興味を持っています。いろんな人とインタビューをして、このプロジェクトと社会の橋渡しになれるよう頑張ります。",
+        "description": "I'm interested in the environment and journalism. I hope to contribute to this project by connecting our ideas with society through interviews as a human practice member. "
+    },
+    {
+        "japaneseName": "成田　香公",
+        "name": "Kakou Narita",
+        "grade": "H3",
+        "photo": "https://lh3.googleusercontent.com/d/1CYMLC9AYMzHo0Y5v2-JW9SO5yelKgl8h",
+        "department": "Education",
+        "japaneseDescription": "テニスを通し、神経物理療法や生体医工学に興味を持ちました。iGEMでは科学と実社会を繋げたいです。",
+        "description": "Playing tennis ignited my passion for neurorehabilitation and biomedical engineering. At iGEM, I aim to bridge science and real-world challenges."
+    },
+    {
+        "japaneseName": "中村　麻椰",
+        "name": "Maya Nakamura",
+        "grade": "H1",
+        "department": "Wet & Entrepreneurship"
+    },
+    {
+        "japaneseName": "茂木　ひなた",
+        "name": "Hinata Motegi",
+        "grade": "H1",
+        "department": "Wet & Entrepreneurship",
+        "japaneseDescription": "テニスを通し、神経物理療法や生体医工学に興味を持ちました。iGEMでは科学と実社会を繋げたいです",
+        "description": "Through exploring the many aspects of biology, I hope to make even the slightest difference to improve our lives!"
+    },
+    {
+        "japaneseName": "廣實　真仁",
+        "name": "Masato Hirozane",
+        "grade": "H2",
+        "department": "Human Practice, 財務",
+        "roles": "Hupra and Finance Leader",
+        "japaneseDescription": "普段は経済・金融・ビジネスに興味があり、iGEMを通じて実践力と国際視野を身につけたいです。",
+        "description": "I am passionate in economics, finance, and business, and through iGEM, I hope to gain practical skills and a global perspective."
+    },
+    {
+        "japaneseName": "新明　結",
+        "name": "Yui Shimmyo",
+        "grade": "H3",
+        "photo": "https://lh3.googleusercontent.com/d/1DFHSLLA9m4OZPs5azjCIyuzwFBQIXR21",
+        "department": "design",
+        "roles": "Design Leader",
+        "japaneseDescription": "主に有尾類の発生・繁殖行動の研究をしています。このチームの最大限の魅力が引き出せるようなデザインを提供できるよう頑張ります！",
+        "description": "Interested in Japan's native species and threatened organisms. I will do my best to support the team's image and other departments. I truly believe this team has the potential to achieve great results!"
+    },
+    {
+        "japaneseName": "姜　準",
+        "name": "Jun Kang",
+        "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1dX_YP1QaAiNE7_dMdtobQS7wCAxdOuSw",
+        "department": "Wet & Entrepreneurship",
+        "roles": "Wet Sub Leader",
+        "japaneseDescription": "環境イノベーションに心惹かれる高校生。iGEMでは1位を目指し、全力で頑張ります。",
+        "description": "I am passionate about tackling environmental issues with science and technological innovation. I am extremely eager to gain valuable insight into research and collaboration through this iGEM experience."
+    },
+    {
+        "japaneseName": "西田　芽生",
+        "name": "Mei Nishida ",
+        "grade": "H3",
+        "department": "Education ",
+        "japaneseDescription": "医学に興味があります。iGEMではチームに貢献しながら、合成生物学を面白さを多くの人に知ってもらえるために頑張ります！",
+        "description": "I’m interested in the field of medicine and would like to contribute to my team while striving to make the field of synthetic biology more accessible and engaging to a wider audience."
+    },
+    {
+        "japaneseName": "和佐野　花帆",
+        "name": "Kaho Wasano",
+        "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1IyKzFOhDed1RJGqPVHaZ0o2cMuqrRv7z",
+        "department": "広報",
+        "roles": "PR Leader",
+        "japaneseDescription": "メディアコミュニケーションに興味があります。みんなの活動をしっかり伝えられるよう頑張ります！",
+        "description": "Fascinated by study of media communications. I'll try my best to promote the team as the great people they are."
+    },
+    {
+        "japaneseName": "佐々木　初",
+        "name": "Ui Sasaki",
+        "grade": "M3",
+        "photo": "https://lh3.googleusercontent.com/d/1bUr2-8tqxoUGIVfu_ALp2jfB_G4TvKpn",
+        "department": "Wiki",
+        "japaneseDescription": "webdevとかアプリ系のものを作るのが好きです。サイバーセキュリティーも趣味として♪ 最強なウェブサイト絶対作り上げます！！",
+        "description": "I love to make new apps and websites! I also do cybersecurity as a hobby, but I will work very hard to make the best website out there:D"
+    },
+    {
+        "japaneseName": "長井　寅ノ介",
+        "name": "Toranosuke Nagai",
+        "grade": "M3",
+        "photo": "https://lh3.googleusercontent.com/d/1vWKd0usTddfTMJYJII6jeyU8Tkdmr_Zj",
+        "department": "Hardware",
+        "roles": "Hardware Leader",
+        "japaneseDescription": "航空宇宙工学と機械工学とカヌー・スラロームがとても好きです。このチームを３Dプリンティングの技術でサポートします！",
+        "description": "I love Aero-Astro and mechanical engineering, as well as canoe slalom. I'll be supporting the team with outlandish ideas and 3D printing skills."
+    },
+    {
+        "japaneseName": "武内　友里",
+        "name": "Yuri Takeuchi",
+        "grade": "H2",
+        "department": "Wet & Entrepreneurship"
+    },
+    {
+        "japaneseName": "乾　孝太郎",
+        "name": "Kotaro Inui",
+        "grade": "H2",
+        "department": "Model",
+        "japaneseDescription": "普段は物理や数学に興味があり将来は獣医や医学関係などにつきたく生物にも興味が湧いてきた為iGEMでもmodelで活躍したいです。",
+        "description": "I am into science and mathmatics. In the future, I want to be a veterinarian, so I am interested in studying and contributing in both math and biology at the same time through iGEM."
+    },
+    {
+        "japaneseName": "小山　夏帆",
+        "name": "Kaho Koyama",
+        "grade": "H2",
+        "department": "Human Practice",
+        "roles": "Hupra Sub Leader"
+    },
+    {
+        "japaneseName": "大原彩加",
+        "name": "Ayaka Ohara",
+        "grade": "H3",
+        "department": "Education , 財務, Design",
+        "japaneseDescription": "タンパク質などの分子生命に興味があります。できるサポート頑張りたいと思います!"
+    },
+    {
+        "japaneseName": "山藤緑夏",
+        "name": "Rona Sando",
+        "grade": "H2",
+        "department": "Software, Wiki"
+    },
+    {
+        "japaneseName": "小野寺弘輝",
+        "name": "Kohki Onodera",
+        "grade": "H2",
+        "department": "Wet & Entrepreneurship",
+        "japaneseDescription": "化学に興味があります。全力で頑張ります！",
+        "description": "I'm interested in chemistry. I'm motivated!!!"
+    },
+    {
+        "japaneseName": "酒巻　仁",
+        "name": "Jin Sakamaki",
+        "grade": "H1",
+        "department": "Education",
+        "roles": "Model",
+        "japaneseDescription": "コーディングと教育学、統計に興味があります",
+        "description": "I'm interested in coding, education, and statistics. I would like to participate by using my knowledge of education and little bit of coding."
+    },
+    {
+        "japaneseName": "清水麻莉花",
+        "name": "Marika Shimizu",
+        "grade": "H3",
+        "department": "Education",
+        "japaneseDescription": "心理学・公衆衛生学・メディアに興味があります。合成生物学の知名度を高めるために頑張ります！",
+        "description": "I'm interested in the intersection of psychology, public health, and media awareness. I hope more people can learn about synthetic biology through this project!"
+    }
+]
