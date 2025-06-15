@@ -82,6 +82,10 @@
     font-size: 1.1rem;
 }
 
+#bannerbutton {
+    z-index: 2;
+}
+
 .arrow {
     position: absolute;
     /* Position from bottom is more reliable than from top with vh units */

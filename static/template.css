@@ -35,18 +35,22 @@ body {
 
 
 .logo {
-    width: 250px;
+    width: 300px;
     height: 12vh;
 }
 
 .logo a {
     height: 12vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: #117661;
     font-size: 1.8rem;
+}
+
+.logo a > p {
+    padding-left: 10px;
 }
 
 .logo img {
