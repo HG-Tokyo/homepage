@@ -45,9 +45,9 @@
             max-width: 1000px;
         }
 
-    .image-full-width {
-        width: 100%;
-        max-width: 800px;
+    .image-medium {
+        width: 70%;
+        max-width: 600px;
         height: auto;
         border-radius: 10px;
         margin-top: 2.5rem;

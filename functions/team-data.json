@@ -1,33 +1,5 @@
 [
     {
-        "japaneseName": "佐藤　凜奈",
-        "name": "Linna Sato",
-        "grade": "H2",
-        "department": "Wet & Entrepreneurship, Education , Finance",
-        "roles": "Team Leader admin",
-        "japaneseDescription": "脳や医学に興味があり、学生団体の運営や学術オリンピックに挑戦中。世界一を目指して頑張ります。",
-        "description": "I will do whatever it takes to help the team reach its full potential and leave a real impact on the world."
-    },
-    {
-        "japaneseName": "江川　陸翔",
-        "name": "Rikuto Egawa",
-        "grade": "H2",
-        "department": "Wet & Entrepreneurship",
-        "roles": "Team Leader, Wet Leader, admin",
-        "japaneseDescription": "糖尿病の研究をしている17歳。iGEMの目標は世界一。合成生物学で社会課題に本気で向き合います。",
-        "description": "With full commitment, I am eager to change the world with the beauty of synthetic biology, and contribute in alleviating hay fever symptoms."
-    },
-    {
-        "japaneseName": "上倉　綾太",
-        "name": "Ryota Kamikura",
-        "grade": "H2",
-        "photo": "https://lh3.googleusercontent.com/d/1-JsXV87yKTjp_YFpYZdzRcun5bCvhupb",
-        "department": "Wet & Entrepreneurship, Education , Finance",
-        "roles": "Team Leader, admin",
-        "japaneseDescription": "脳神経科学に関心を持ち学生団体などで活動中。iGEMはいい成果をあげられるよう、全力で頑張ります！",
-        "description": "Passionate about neuroscience and planning to pursue it. Through iGEM, I hope to achieve meaningful results and enjoy the journey. As one of the team leaders, I aim to support and lead my team."
-    },
-    {
         "japaneseName": "木内　和奏",
         "name": "Wakana Kiuchi",
         "grade": "H2",

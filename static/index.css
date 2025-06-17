@@ -15,6 +15,7 @@
     box-sizing: border-box;
     text-align: center;
     background-image: url("https://lh3.googleusercontent.com/d/1hZDnVZwdemvdZI6XuaTgnxhO2biECJ2w");
+    background-size: cover;
 }
 
 .shade {
