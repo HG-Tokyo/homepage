@@ -225,7 +225,10 @@
         "japaneseName": "山藤緑夏",
         "name": "Rona Sando",
         "grade": "H2",
-        "department": "Software, Wiki"
+        "photo": "https://lh3.googleusercontent.com/d/1Z11Uih9sF2AK2xUQhtHMU-XwpcIX8Fgh",
+        "department": "Software, Wiki",
+        "japaneseDescription": "中学生でF1分析に興味を持ちPythonを独学し、現在はサッカーのデータ分析などに取り組むデータサイエンス志望者です。",
+        "description": "I am a data scientist who taught myself Python in middle school from an interest in F1 analysis, and now I am working on soccer data analysis."
     },
     {
         "japaneseName": "小野寺弘輝",
