@@ -16,6 +16,7 @@
     text-align: center;
     background-image: url("https://lh3.googleusercontent.com/d/1hZDnVZwdemvdZI6XuaTgnxhO2biECJ2w");
     background-size: cover;
+    background-position: center;
 }
 
 .shade {
@@ -310,4 +311,8 @@
         font-size: 1rem;
         text-align: center;
     }
+}
+
+.footer {
+    scroll-snap-align: end;
 }

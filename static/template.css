@@ -50,6 +50,7 @@ body {
 
 .logo a > p {
     padding-left: 10px;
+    min-width: 155px;
 }
 
 .logo img {
@@ -138,7 +139,6 @@ body {
 .footer {
     height: 15vh;
     background-color: white;
-    scroll-snap-align: end;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -240,8 +240,10 @@ body {
     }
 
     .logo p {
-        font-size: 1rem;
+        font-size: 1.8rem;
         display: block;
+        margin: 1rem;
+        margin-left: 0;
     }
 
     .hamburger-menu {
