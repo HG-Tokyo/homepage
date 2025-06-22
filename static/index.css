@@ -258,7 +258,7 @@
 
     #igem-section,
     #team-section {
-        padding: 0 20px; /* Uniform padding for all text sections */
+        padding: 0px; /* Uniform padding for all text sections */
     }
 
     .headingen {
