@@ -220,99 +220,72 @@
     font-size: 1.1rem;
 }
 
-/* ================================================= */
-/* NEW: Responsive Styles for Mobile                 */
-/* ================================================= */
 @media (max-width: 900px) {
-    .banner {
-        min-height: 90vh;
-    }
-
     #title {
-        /* Fluid font size: scales from 2.5rem to 4rem based on 15% of viewport width */
-        font-size: clamp(2.5rem, 15vw, 4rem);
+        font-size: 2.5rem; /* Adjust title size for smaller screens */
     }
 
     .banner > p {
         font-size: 1rem;
+        padding: 0 15px; /* Increase horizontal padding */
+    }
+
+    .learnmore {
+        width: 120px;
+        height: 40px;
+    }
+
+    .learnmore p {
+        font-size: 1rem;
     }
 
     .arrow {
-        /* Arrow can be distracting on mobile, so we hide it */
-        display: none;
+        bottom: 2vh; /* Adjust arrow position */
     }
 
     .section {
-        /* Stack the text/image sections vertically */
-        flex-direction: column;
-        height: auto;
-        min-height: 0;
-        width: 100%;
-        padding: 0;
+        flex-direction: column; /* Stack sections vertically */
+        min-height: auto; /* Allow height to adjust to content */
+        padding: 40px 20px; /* More vertical padding for stacked sections */
     }
 
-    /* Reverses order so the image is on top for this section */
-    #about-hg-tokyo {
-        flex-direction: column-reverse;
-    }
-
-    .text-section, .image-section {
-        width: 100%;
-        min-height: auto;
-        padding: 40px 30px;
-    }
-
+    .text-section,
     .image-section {
-        /* Give image sections a consistent height on mobile */
-        height: 45vh;
-        max-height: 350px;
+        width: 100%; /* Take full width on small screens */
+        min-height: auto; /* Allow height to adjust */
+        padding: 20px 0; /* Reset specific padding */
+    }
+
+    #igem-section,
+    #team-section {
+        padding: 0 20px; /* Uniform padding for all text sections */
+    }
+
+    .headingen {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .headingjp {
+        font-size: 1rem; /* Adjust Japanese heading size */
+    }
+
+    .text-section > p {
+        font-size: 1rem; /* Adjust paragraph font size */
+        padding: 0 10px; /* Add some internal padding for text */
     }
 
     .image-section > p {
-       /* Style caption differently for mobile view */
-        position: relative;
-        color: #333;
-        background-color: transparent;
-        text-align: center;
-        width: 100%;
-        bottom: auto;
-        right: auto;
-        padding: 5px 0;
-       margin-top: -30px; /* Pulls it closer to the image */
+        bottom: 20px; /* Adjust image source position */
+        font-size: 0.7rem;
     }
 
-    #project {
-        height: auto;
-        padding: 20px 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    #projectSection {
-        /* Stack project content vertically */
-        flex-direction: column;
-        height: auto;
-        min-height: 0;
-    }
-
-    #projectimage {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    #projectimage > img {
-        /* Make the project image larger to be more visible */
-        width: 70vw;
-    }
-
-    #projecttext {
-        width: 90%;
-        margin-right: 0;
-        font-size: 1rem;
-        text-align: center;
+    /* Reverse order for alternate sections on mobile if desired */
+    #about-hg-tokyo {
+        flex-direction: column-reverse;
     }
 }
 
-.footer {
-    scroll-snap-align: end;
+.section .image-section img {
+    height: auto; /* Ensure images scale proportionally */
+    max-width: 100%;
 }

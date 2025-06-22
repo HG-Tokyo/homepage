@@ -61,7 +61,6 @@
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             margin-bottom: 30px; /* Space between department sections */
-            width: 100%;
             max-width: 1000px; /* Max width for department sections */
             text-align: center;
         }
@@ -242,7 +241,7 @@
 
         @media (max-width: 768px) {
             .contentblock {
-                padding: 40px 3%;
+                padding: 40px 10%;
                 margin: 15px auto;
             }
             .heading {
@@ -301,5 +300,9 @@
                 font-size: 1.8rem;
                 top: 10px;
                 right: 15px;
+            }
+
+            .content-text {
+                max-width: 500px;
             }
         }

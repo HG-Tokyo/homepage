@@ -159,49 +159,132 @@
     padding: 0;
 }
 
-@media (max-width: 768px) {
-    .banner-title {
-        font-size: 3rem;
-    }
-    .banner-text {
-        font-size: 1.2rem;
-    }
-    .main {
-        padding: 10px; /* Reduce main padding on small screens */
-    }
-    .contentblock {
-        padding: 40px 3%;
-        margin-bottom: 30px;
-    }
-    .heading {
-        font-size: 2.2rem;
-        margin-bottom: 1.5rem;
-    }
-    .content-text {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-    }
-    .image-full-width {
-        margin-top: 1.5rem;
+@media (max-width: 480px) {
+    .banner {
+        height: 70vh; /* Make banner a bit shorter on very small screens */
+        padding-top: 10vh; /* Adjust padding for fixed header */
     }
 
-    .grid {
-        grid-template-columns: 1fr; /* Stack features on small screens */
-        gap: 25px;
-        padding: 0; /* Remove padding for grid on small screens */
+    #banneren {
+        font-size: 3rem; /* Smaller banner title */
     }
-    .item {
-        padding: 25px;
+
+    .headingjp {
+        font-size: 1rem; /* Smaller Japanese heading */
     }
-    .item-title {
-        font-size: 1.6rem;
+
+    .banner-text {
+        font-size: 1rem;
+        padding: 0 20px; /* Adjust padding */
     }
-    .section {
-        padding: 50px 20px;
-        margin-top: 40px;
-    }
-    .section p {
-        font-size: 1.2rem;
+
+    .contentblock {
+        padding: 30px 15px; /* Tighter padding for content blocks */
         margin-bottom: 30px;
+    }
+
+    .headingen {
+        font-size: 2rem; /* Smaller content heading */
+    }
+
+    .content-text {
+        font-size: 0.95rem; /* Smaller content text */
+        padding: 0 10px; /* Tighter text padding */
+    }
+
+    .learnmore {
+        width: 200px;
+        height: 70px;
+    }
+    .learnmore p {
+        font-size: 0.9rem; /* Smaller font for learn more text */
+    }
+    .learnmore p:last-child { /* Specific for the Japanese text */
+        font-size: 0.8rem !important; /* Adjust if needed */
+    }
+}
+
+/* Small devices (phones, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .banner {
+        height: 75vh;
+        padding-top: 12vh;
+    }
+
+    #banneren {
+        font-size: 3.8rem;
+    }
+
+    .headingjp {
+        font-size: 1.1rem;
+    }
+
+    .banner-text {
+        font-size: 1.2rem;
+        padding: 0 30px;
+    }
+
+    .contentblock {
+        padding: 40px 3%;
+        margin-bottom: 40px;
+    }
+
+    .headingen {
+        font-size: 2.4rem;
+    }
+
+    .content-text {
+        font-size: 1.05rem;
+        padding: 0 15px;
+    }
+
+    .learnmore {
+        width: 220px;
+        height: 75px;
+    }
+    .learnmore p {
+        font-size: 1rem;
+    }
+    .learnmore p:last-child {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Medium devices (tablets, 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+        height: 80vh;
+    }
+
+    #banneren {
+        font-size: 4.5rem;
+    }
+
+    .banner-text {
+        font-size: 1.35rem;
+    }
+
+    .contentblock {
+        padding: 50px 4%;
+        margin-bottom: 45px;
+    }
+
+    .headingen {
+        font-size: 2.6rem;
+    }
+
+    .content-text {
+        font-size: 1.1rem;
+    }
+
+    .learnmore {
+        width: 240px;
+        height: 78px;
+    }
+    .learnmore p {
+        font-size: 1.05rem;
+    }
+    .learnmore p:last-child {
+        font-size: 1rem !important;
     }
 }

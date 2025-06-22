@@ -4,7 +4,7 @@
         "name": "Linna Sato",
         "grade": "H2",
         "department": "Wet & Entrepreneurship, Education , Finance",
-        "roles": "Team Leader admin",
+        "roles": "Team Leader",
         "japaneseDescription": "脳や医学に興味があり、学生団体の運営や学術オリンピックに挑戦中。世界一を目指して頑張ります。",
         "description": "I will do whatever it takes to help the team reach its full potential and leave a real impact on the world."
     },
@@ -13,7 +13,7 @@
         "name": "Rikuto Egawa",
         "grade": "H2",
         "department": "Wet & Entrepreneurship",
-        "roles": "Team Leader, Wet Leader, admin",
+        "roles": "Team Leader, Wet Leader,",
         "japaneseDescription": "糖尿病の研究をしている17歳。iGEMの目標は世界一。合成生物学で社会課題に本気で向き合います。",
         "description": "With full commitment, I am eager to change the world with the beauty of synthetic biology, and contribute in alleviating hay fever symptoms."
     },
@@ -23,7 +23,7 @@
         "grade": "H2",
         "photo": "https://lh3.googleusercontent.com/d/1-JsXV87yKTjp_YFpYZdzRcun5bCvhupb",
         "department": "Wet & Entrepreneurship, Education , Finance",
-        "roles": "Team Leader, admin",
+        "roles": "Team Leader,",
         "japaneseDescription": "脳神経科学に関心を持ち学生団体などで活動中。iGEMはいい成果をあげられるよう、全力で頑張ります！",
         "description": "Passionate about neuroscience and planning to pursue it. Through iGEM, I hope to achieve meaningful results and enjoy the journey. As one of the team leaders, I aim to support and lead my team."
     },
@@ -130,7 +130,7 @@
         "name": "Masato Hirozane",
         "grade": "H2",
         "department": "Human Practices, Finance",
-        "roles": "Human Practices leader, Finance Leader",
+        "roles": "Human Practices Leader, Finance Leader",
         "japaneseDescription": "普段は経済・金融・ビジネスに興味があり、iGEMを通じて実践力と国際視野を身につけたいです。",
         "description": "I am passionate in economics, finance, and business, and through iGEM, I hope to gain practical skills and a global perspective."
     },
