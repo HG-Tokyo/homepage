@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         function renderGradesAndMembers() {
             departmentsOverview.innerHTML = `
-                <div class="heading">Our Members</div>
-                <div class="headingjp">メンバー紹介</div>
+                <h1 class="headingen">Our Members</h1>
+                <p class="headingjp">メンバー紹介</p>    
             `;
 
             const gradeOrder = ["H3", "H2", "H1", "M3", "M2"];
