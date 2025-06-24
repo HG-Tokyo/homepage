@@ -3,6 +3,7 @@
         "japaneseName": "佐藤　凜奈",
         "name": "Linna Sato",
         "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/19pFnJzBwSQw9e27IDz8Rxq_RedDiSzez",
         "department": "Wet & Entrepreneurship, Education , Finance",
         "roles": "Team Leader",
         "japaneseDescription": "脳や医学に興味があり、学生団体の運営や学術オリンピックに挑戦中。世界一を目指して頑張ります。",
@@ -212,7 +213,9 @@
         "name": "Kaho Koyama",
         "grade": "H2",
         "department": "Human Practices",
-        "roles": "Human Practices Sub Leader"
+        "roles": "Human Practices Sub Leader",
+        "japaneseDescription": "ビジネスや人との関わりを通じて技術を人々にとって身近にし、日常を豊かにしたいと思っています。",
+        "description": "Through business and human connection, I want to make technology more accessible and improve people's daily lives."
     },
     {
         "japaneseName": "大原彩加",
