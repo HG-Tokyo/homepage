@@ -13,6 +13,7 @@
         "japaneseName": "江川　陸翔",
         "name": "Rikuto Egawa",
         "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1SWCoKWagTJwsKq0EsEz-GNXDfkN1kYly",
         "department": "Wet & Entrepreneurship",
         "roles": "Team Leader, Wet Leader,",
         "japaneseDescription": "糖尿病の研究をしている17歳。iGEMの目標は世界一。合成生物学で社会課題に本気で向き合います。",
@@ -32,7 +33,7 @@
         "japaneseName": "木内　和奏",
         "name": "Wakana Kiuchi",
         "grade": "H2",
-        "photo": "https://lh3.googleusercontent.com/d/1ZdczBq4eocVQDhwjRpzEGnIaCHZG9P9-",
+        "photo": "https://lh3.googleusercontent.com/d/1Gg2Be520w9Rar-tzCDosW0aHadyS0ZEF",
         "department": "Wet & Entrepreneurship, PR",
         "japaneseDescription": "医学に興味があります。iGEMでは自分の知識を深めながらチームに貢献できるよう頑張ります！",
         "description": "I'm passionate about medicine, especially immunology and cardiology. Through iGEM, I hope to deepen my scientific knowledge, gain valuable research experience, and contribute to the team to achieve successful results."
@@ -44,13 +45,14 @@
         "photo": "https://lh3.googleusercontent.com/d/1XhA1I7nXll8aeUBTTSB-PkgVP64HsnBN",
         "department": "Software, Wiki",
         "roles": "Software Leader, Wiki Leader",
-        "japaneseDescription": "興味分野は航空宇宙工学と量子コンピューティングです。高クオリティのwikiとソフトを作れるように頑張ります。",
-        "description": "My pursuits are aerospace engineering and quantum computing. I'll try my best to create a nice wiki and software for the team."
+        "japaneseDescription": "興味分野は航空宇宙工学です。高クオリティのwikiとソフトを作れるように頑張ります。",
+        "description": "My main pursuit is aerospace engineering. I'll try my best to create a nice wiki and software for the team."
     },
     {
         "japaneseName": "成田　響生",
         "name": "Hibiki Narita",
         "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1J_pVIr_SgrD-CBIMc6NXenLUC8XjQDwd",
         "department": "Education",
         "roles": "Education Sub Leader",
         "japaneseDescription": "化学工学や宇宙に興味があります。合成生物学をもっと身近に感じてもらえるよう、全力で頑張ります！",
@@ -114,6 +116,7 @@
         "japaneseName": "中村　麻椰",
         "name": "Maya Nakamura",
         "grade": "H1",
+        "photo": "https://lh3.googleusercontent.com/d/1XnoCeP6DxL9KxaAJe9SRVnyPHTOR-LjG",
         "department": "Wet & Entrepreneurship",
         "japaneseDescription": "バイオとフードサイエンスに惹かれています。合成生物学で日常に新しい選択肢を届けたいです!",
         "description": "Driven by a curiosity for biology and food science, I’m exploring how synthetic biology can help address real-world challenges and bring new value to everyday life."
@@ -157,9 +160,10 @@
     },
     {
         "japaneseName": "西田　芽生",
-        "name": "Mei Nishida ",
+        "name": "Mei Nishida",
         "grade": "H3",
-        "department": "Education ",
+        "photo": "https://lh3.googleusercontent.com/d/1IZXddiyq60LZHPis9IaBVK_aj3U1sU68",
+        "department": "Education",
         "japaneseDescription": "医学に興味があります。iGEMではチームに貢献しながら、合成生物学を面白さを多くの人に知ってもらえるために頑張ります！",
         "description": "I’m interested in the field of medicine and would like to contribute to my team while striving to make the field of synthetic biology more accessible and engaging to a wider audience."
     },
@@ -212,6 +216,7 @@
         "japaneseName": "小山　夏帆",
         "name": "Kaho Koyama",
         "grade": "H2",
+        "photo": "https://lh3.googleusercontent.com/d/1Rift4bz5dl-SEdorMN6NTPjrMTz3B6bn",
         "department": "Human Practices",
         "roles": "Human Practices Sub Leader",
         "japaneseDescription": "ビジネスや人との関わりを通じて技術を人々にとって身近にし、日常を豊かにしたいと思っています。",
@@ -221,6 +226,7 @@
         "japaneseName": "大原彩加",
         "name": "Ayaka Ohara",
         "grade": "H3",
+        "photo": "https://lh3.googleusercontent.com/d/1d01x_XZ_u0RmrxCh50EU17Il80ZoZdJp",
         "department": "Education , Finance, Design",
         "japaneseDescription": "タンパク質などの分子生命に興味があります。できるサポート頑張りたいと思います!"
     },
