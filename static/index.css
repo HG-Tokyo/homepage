@@ -123,6 +123,33 @@
     box-sizing: border-box;
 }
 
+#news {
+    background-color: #f1f8f1;
+    min-height: 50vh;
+}
+
+.column {
+    height: 30vh;
+    width: 50vw;
+    background-color: #DDFFDD;
+    border-radius: 20px;
+    border: 1px solid #117661;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#list {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.information {
+    margin-left: 20px;
+}
+
 #igem-section {
     padding: 0px 100px 0px 0px;
 }
@@ -247,6 +274,14 @@
         flex-direction: column; /* Stack sections vertically */
         min-height: auto; /* Allow height to adjust to content */
         padding: 40px 20px; /* More vertical padding for stacked sections */
+    }
+
+    .column {
+        min-width: 450px;
+    }
+
+    #list {
+        grid-template-columns: 1fr 4fr;
     }
 
     .text-section,
