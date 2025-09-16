@@ -284,6 +284,11 @@
         grid-template-columns: 1fr 4fr;
     }
 
+    #list > p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .text-section,
     .image-section {
         width: 100%; /* Take full width on small screens */

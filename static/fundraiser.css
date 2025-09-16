@@ -57,19 +57,8 @@ body {
     padding-top: 20px;
 }
 
-.detail, #explain {
+#detail, #explain {
     width: 90%;
-}
-
-#moredetail {
-    padding: 20px;
-    background-color: #efe;
-    border-radius: 10px;
-    box-shadow: rgba(0,0,0,0.08) 3px 3px;
-    font-size: large;
-    font-family: "Zen Maru Gothic", sans-serif;
-    font-weight: 600;
-    font-style: normal;
 }
 
 #link {
